@@ -16,8 +16,8 @@ $ pip install webdriver-manager
 
 1. start the script
 2. add your username and password from mathletics in between the quotation marks on line 10 & 11
-2b. uncomment any functions if desired
-3 profit!
+3. uncomment any functions if desired
+4. profit!
 
 ## connecting program to existing chrome application
 
