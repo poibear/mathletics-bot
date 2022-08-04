@@ -1,22 +1,22 @@
 # mathletics-bot
-bad mathletics addition bot i made for a meme
+upgraded mathletics bot to include level 2 solving (forked from charlie-grayh
 
 # Requirements
-1. python (lol)
+1. python
 2. chrome
 3. selenium
 
-to install selenium, run the following commands
+Required Packages: selenium, webdriver-manager
 ``` 
 $ pip install selenium
-$ pip install webdriver_manager
+$ pip install webdriver-manager
 ``` 
 
-# How to use
+# Startup
 
-1. start the script (main.py)
-2. log into mathletics and start an online addition game
-3. wait until the first question shows up, then press enter
+1. start the script
+2a. uncomment any functions if desired
+2. profit!
 
 # Using devtools-bot.py
 
