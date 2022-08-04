@@ -1,8 +1,8 @@
 # mathletics-bot
-upgraded mathletics bot to include level 2 solving (forked from charlie-grayh
+upgraded mathletics bot to include level 2 solving (forked from [charlie-gray](https://github.com/charlie-gray/mathletics-bot))
 
-# Requirements
-1. python
+## requirements
+1. python (w/ pip)
 2. chrome
 3. selenium
 
@@ -12,18 +12,17 @@ $ pip install selenium
 $ pip install webdriver-manager
 ``` 
 
-# Startup
+## startup
 
 1. start the script
 2a. uncomment any functions if desired
 2. profit!
 
-# Using devtools-bot.py
+## connecting program to existing chrome application
 
-if you dont want to open a new window every time you want to start a new match, use this bot
+if you dont want to open a new window every time you want to start a new match, do the following:
 
-1. run `.\chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\ChromeProfile"` in the same directory as chrome.exe
-2. start the script (devtools-bot.py)
-3. log into mathletics and start an online addition game
-4. wait until the first question shows up, then press enter
-5. run the script again and it should work with the previous window you had opened
+1. open cmd and navigate to your chrome installation directory (default is C:\Program Files\Google\Chrome\Application)
+2. run `.\chrome.exe --remote-debugging-port=9222`
+3. uncomment line 14
+4. run main.py
